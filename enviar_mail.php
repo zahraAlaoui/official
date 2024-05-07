@@ -1,8 +1,8 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $asunto = $_POST['asunto'];
-    $email = $_POST['email'];
-    $mensaje = $_POST['mensaje'];
+if ($_SERVER["REQUEST_METHOD"] == "GET") {
+    $asunto = $_GET['asunto'];
+    $email = $_GET['email'];
+    $mensaje = $_GET['mensaje'];
     
     $destinatario = 'javilasanch@gmail.com'; // Cambia esto al correo al que quieras enviar los mensajes
     
