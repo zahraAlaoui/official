@@ -47,6 +47,7 @@ section h2 {
 
 #social-networks {
     background-color: #fff;
+    margin-bottom: -320px; /* Ajustar el margen inferior */
 }
 
 
