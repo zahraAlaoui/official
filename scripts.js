@@ -58,7 +58,7 @@ function enviarCorreo() {
     var email = document.getElementById('email').value;
     var mensaje = document.getElementById('mensaje').value;
     
-    var mailto_link = 'mailto:javilansanch@gmail.com?subject=' + encodeURIComponent(asunto) + '&body=' + encodeURIComponent(mensaje);
+    var mailto_link = 'mailto:javilansanch@gmail.com?subject=' + encodeURIComponent(asunto) + '&body=' + encodeURIComponent(mensaje + "\n\nCorreo electrónico: " + email);
     
     window.location.href = mailto_link;
 }
