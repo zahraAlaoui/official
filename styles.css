@@ -19,7 +19,26 @@ header {
     padding: 0; 
     background-color: #040b14; 
     color: #fff;
+    height: 110px;
 }
+
+.header-img {
+    margin-left: 10px;
+    height: 75px;
+    width: 200px;
+    animation: rotateHeaderImg 1s linear forwards;
+}
+
+@keyframes rotateHeaderImg {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
 
 .social-icons {
     background-color: #fff;
@@ -51,7 +70,7 @@ section h2 {
 
 #social-networks {
     background-color: #fff;
-    margin-bottom: -320px; /* Ajustar el margen inferior */
+    margin-bottom: -330px; 
 }
 
 
